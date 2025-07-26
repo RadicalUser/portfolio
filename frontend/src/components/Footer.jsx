@@ -134,8 +134,7 @@ const Footer = () => {
               <div className="copyright">
                 <p>
                   © {new Date().getFullYear()} Dinas Pratap Singh. 
-                  Made with <Heart className="heart-icon" size={16} /> 
-                  using React & Framer Motion
+                
                 </p>
               </div>
               

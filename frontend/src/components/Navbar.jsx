@@ -15,6 +15,8 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  //All things in navbar nigga :)
+
   const navItems = [
     { icon: Home, href: '#home', label: 'Home' },
     { icon: FileText, href: '#about', label: 'About' },

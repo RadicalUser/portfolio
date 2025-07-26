@@ -57,8 +57,7 @@ const About = () => {
             <motion.div className="about-card" variants={itemVariants}>
               <h3>Who I Am</h3>
               <p>
-                I'm a driven Web3 developer and financial market trader currently pursuing my B.E. in Computer Engineering 
-                at Thapar Institute of Engineering & Technology (Class of 2028). With over 4 years of hands-on experience 
+                I'm a driven Web3 developer and financial market trader. With over 4 years of hands-on experience 
                 in cryptocurrency and forex markets, I've developed a unique blend of technical expertise and financial acumen.
               </p>
             </motion.div>
@@ -67,8 +66,7 @@ const About = () => {
               <h3>What I Do</h3>
               <p>
                 I specialize in secure smart contract development using Solidity and Motoko, with proven contributions to 
-                DeFi/DeSci token launches and community ecosystems. My work focuses on creating decentralized governance 
-                systems, particularly in developing Reputation DAOs that combat sybil attacks through identity-weighted voting.
+                DeFi/DeSci token launches and community ecosystems. 
               </p>
             </motion.div>
 

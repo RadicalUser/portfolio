@@ -52,10 +52,11 @@ const Experience = () => {
       duration: '2+ years',
       description: 'Contributing to various Web3 projects, maintaining documentation, fixing bugs, and developing new features for decentralized applications.',
       achievements: [
-        'Contributed to 20+ open source blockchain projects',
+        'Contributed to open source blockchain projects',
         'Fixed critical security vulnerabilities in smart contracts',
         'Authored comprehensive Web3 development documentation',
-        'Mentored 50+ developers in blockchain development'
+        'Developed and deployed multiple DApps on Ethereum and Internet Computer'
+  
       ],
       skills: ['Solidity', 'Web3.js', 'Smart Contracts', 'DApp Development', 'Code Review'],
       icon: Code,
@@ -72,9 +73,7 @@ const Experience = () => {
       description: 'Moderated educational crypto communities, organized learning sessions, and helped newcomers understand blockchain technology.',
       achievements: [
         'Moderated communities with 10,000+ active members',
-        'Organized 50+ educational webinars and workshops',
-        'Created educational content reaching 100,000+ learners',
-        'Established mentorship programs for new developers'
+        'Established mentorship programs'
       ],
       skills: ['Community Management', 'Education', 'Content Creation', 'Leadership', 'Communication'],
       icon: BookOpen,
@@ -96,27 +95,6 @@ const Experience = () => {
       'Maintaining academic excellence while building industry experience'
     ]
   };
-
-  const certifications = [
-    {
-      title: 'Prop-Firm Certified Forex Trader',
-      issuer: 'Professional Trading Firm',
-      year: '2024',
-      credential: 'Advanced Risk Management'
-    },
-    {
-      title: 'Blockchain Fundamentals Workshop',
-      issuer: 'Industry Expert',
-      year: '2023',
-      credential: 'Smart Contract Development'
-    },
-    {
-      title: 'Most Innovative Project',
-      issuer: 'Hackspire 2025',
-      year: '2025',
-      credential: 'Guardient - Security Tool'
-    }
-  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -257,32 +235,6 @@ const Experience = () => {
                   ))}
                 </ul>
               </div>
-            </div>
-          </motion.div>
-
-          {/* Certifications */}
-          <motion.div
-            className="certifications-section"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            viewport={{ once: true }}
-          >
-            <h3 className="section-title">Certifications & Awards</h3>
-            <div className="certifications-grid">
-              {certifications.map((cert, index) => (
-                <motion.div
-                  key={cert.title}
-                  className="certification-card"
-                  whileHover={{ y: -5, scale: 1.02 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <div className="cert-year">{cert.year}</div>
-                  <h4>{cert.title}</h4>
-                  <p className="cert-issuer">{cert.issuer}</p>
-                  <span className="cert-credential">{cert.credential}</span>
-                </motion.div>
-              ))}
             </div>
           </motion.div>
         </div>

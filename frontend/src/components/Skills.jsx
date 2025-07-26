@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, TrendingUp, Wrench, Zap } from 'lucide-react';
+import { Code, TrendingUp, Wrench } from 'lucide-react';
 import './Skills.css';
 
 const Skills = () => {
@@ -38,23 +38,9 @@ const Skills = () => {
       skills: [
         { name: 'JavaScript', level: 90, description: 'ES6+ & modern JS' },
         { name: 'React', level: 88, description: 'Component-based UI' },
-        { name: 'Python', level: 85, description: 'Data analysis & automation' },
         { name: 'C++', level: 82, description: 'System programming' },
         { name: 'Git/GitHub', level: 89, description: 'Version control' },
         { name: 'Node.js', level: 86, description: 'Backend development' }
-      ]
-    },
-    {
-      title: 'Tools & Platforms',
-      icon: Zap,
-      color: '#4ecdc4',
-      skills: [
-        { name: 'TradingView', level: 92, description: 'Advanced charting' },
-        { name: 'DFX CLI', level: 85, description: 'Internet Computer' },
-        { name: 'MetaMask', level: 90, description: 'Wallet integration' },
-        { name: 'Remix IDE', level: 88, description: 'Smart contract development' },
-        { name: 'Nmap/Bettercap', level: 83, description: 'Security tools' },
-        { name: 'Docker', level: 80, description: 'Containerization' }
       ]
     }
   ];
