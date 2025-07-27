@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Dinas Pratap Singh's Portfolio Website",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "install": "cd frontend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RadicalUser/portfolio.git"
+  },
+  "author": "Dinas Pratap Singh",
+  "license": "MIT"
+}
